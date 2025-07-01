@@ -14,5 +14,5 @@ This action will attempt to retrieve the logo. In order for this to work, either
 This app uses the website https://logo.clearbit.com/ as a source for retrieving the logo. The creator of this app is not affiliated with the wonderful people who created that tool and is also not responsible for its upkeep or continued operation.
 
 ## Credits
-This project was inspired by a video by the ever clever *Erik Hougaard*, where he demonstrates the magic behind this app.
+This project was inspired by a video by the ever clever **Erik Hougaard**, where he demonstrates the magic behind this app.
 The video link: https://www.youtube.com/watch?v=xLJnF38UAe4
