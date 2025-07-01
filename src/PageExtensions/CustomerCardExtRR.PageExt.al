@@ -1,4 +1,13 @@
-pageextension 50171 "Customer List Ext RR" extends "Customer List"
+// ------------------------------------------------------------------------------------------------
+// Copyright (c) Peter Conijn. All rights reserved.
+// Licensed under the MIT License. See License in the project root for license information.
+// ------------------------------------------------------------------------------------------------
+
+namespace RabbitRamblings.AutoLogoMe;
+
+using Microsoft.Sales.Customer;
+
+pageextension 50170 "Customer Card Ext RR" extends "Customer Card"
 {
     actions
     {
@@ -14,7 +23,7 @@ pageextension 50171 "Customer List Ext RR" extends "Customer List"
                 var
                     RetrieveLogo: Codeunit "Retrieve Logo";
                 begin
-                    RetrieveLogo.RetrieveCustomerLogo();
+                    RetrieveLogo.RetrieveCustomerLogo(Rec);
                 end;
             }
         }

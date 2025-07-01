@@ -1,0 +1,49 @@
+# Ignore the following files
+Thumbs.db
+
+# Ignore the following file types
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.yml
+
+
+# Important do not remove
+*.app
+# *.code-workspace
+*.flf
+*.gitattributes
+
+
+# Ignore the following folders
+.alpackages/
+.alpackages/*
+.snapshots/
+.snapshots/*
+.vscode/
+.vscode/*
+.vs/
+.codeAnalysis/
+.codeAnalysis/*
+
+#Nuget packages folder
+packages/
+
+#Local Translation Files
+TicketOverview.ps1
+TicketOverviewV2.ps1
+Translation

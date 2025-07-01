@@ -1,3 +1,10 @@
+// ------------------------------------------------------------------------------------------------
+// Copyright (c) Peter Conijn. All rights reserved.
+// Licensed under the MIT License. See License in the project root for license information.
+// ------------------------------------------------------------------------------------------------
+
+namespace RabbitRamblings.AutoLogoMe;
+
 codeunit 50173 "Request Handler RR"
 {
     Access = Internal;

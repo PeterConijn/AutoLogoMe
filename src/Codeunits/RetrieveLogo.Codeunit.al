@@ -1,3 +1,13 @@
+// ------------------------------------------------------------------------------------------------
+// Copyright (c) Peter Conijn. All rights reserved.
+// Licensed under the MIT License. See License in the project root for license information.
+// ------------------------------------------------------------------------------------------------
+
+namespace RabbitRamblings.AutoLogoMe;
+
+using Microsoft.Sales.Customer;
+using Microsoft.Purchases.Vendor;
+
 codeunit 50170 "Retrieve Logo"
 {
     Access = Public;

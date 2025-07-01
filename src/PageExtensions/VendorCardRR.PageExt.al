@@ -1,4 +1,13 @@
-pageextension 50173 "Vendor List RR" extends "Vendor List"
+// ------------------------------------------------------------------------------------------------
+// Copyright (c) Peter Conijn. All rights reserved.
+// Licensed under the MIT License. See License in the project root for license information.
+// ------------------------------------------------------------------------------------------------
+
+namespace RabbitRamblings.AutoLogoMe;
+
+using Microsoft.Purchases.Vendor;
+
+pageextension 50172 "Vendor Card RR" extends "Vendor Card"
 {
     actions
     {
